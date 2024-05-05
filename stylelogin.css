@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(to right, rgb(225, 244, 158) , rgb(118, 255, 154));
+}
+
+.logo1{
+    height: 40px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+.form{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.562);
+    display: flex;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.left{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 255, 140);
+    gap: 10px;
+}
+
+.left h2, h5{
+    color: rgb(2, 34, 49);
+    line-height: 10px;
+}
+
+img{
+    width: 80%;
+}
+
+.right{
+    height: 400px;
+    width: 300px;
+    color: rgb(8, 255, 140);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(2, 34, 49);
+}
+
+.right h2{
+    line-height: 10px;
+}
+
+input{
+    outline: none;
+    background-color: rgb(1, 27, 40);
+    border: none;
+    color: rgb(8, 255, 140);
+    border-left: 2px solid rgb(8, 255, 140);
+    padding: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+input:focus{
+    border-bottom: 1px solid rgb(8, 255, 140);
+    border-left: 2px solid transparent;
+    background-color: transparent;
+}
+
+.forget{
+    color: rgb(8, 255, 140);
+    margin: 0;
+    padding-left: 65px; 
+    cursor: pointer;
+}
+
+.forget:hover{
+    color: rgb(255, 78, 78);
+}
+
+button{
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color: rgb(8, 255, 140);
+    border: 1px solid transparent;
+    width: 170px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(8, 255, 140);
+    color: rgb(8, 255, 140);
+}
+
+@media only screen and (max-width: 640px) {
+    .left{
+        display: none;
+    }
+  }

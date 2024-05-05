@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>Mahbub-Ul Alam | Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="right">
+                <h2>Login Account</h2>
+                <input id="user" type="text" placeholder="User ID">
+                <input id ="pass" type="password" placeholder="Password">
+                <button onclick="handle_login()" class="r">LOGIN</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const handle_login = () => {
+            const user = document.getElementById('user').value
+            const pass = document.getElementById('pass').value
+            if (user === "mahbub" && pass === "mahbubicddrb"){
+                window.location.replace("index.html")
+            }
+        }
+    </script>
+</body>
+</html>

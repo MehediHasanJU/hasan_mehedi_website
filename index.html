@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-l0mUq/x6pFDTvDCgWfYRmk9kC1HsTfBz8hddBlpN6wNfBDbTlJz8W/UL/Id9zTQ+oGweFnV7+MwBuJmnV7QdTw==" crossorigin="anonymous" />      
+    <link rel = "icon" href = "malogo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <script src="https://kit.fontawesome.com/22a8511207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
+    <title>Mahbub-Ul Alam</title>
+</head>
+<body>
+
+    <header>
+        <p class="mua container">Mahbub-Ul Alam</p>
+        <p class="muat container">Exploring innovative solutions for global health and WASH challenges</p>
+
+    </header>
+    <nav class="container">
+        <span class="m-icon"  onclick="openMenu()">|||</span>
+        <ul class="menu">
+            <li onclick="abtFunc()">About Me</li>
+            <li onclick="resFunc()">Research</li>
+            <li onclick="publiFunc()" id="pub-sub">Publications <i class="fa fa-caret-down"></i>
+                <ul class="sub-sec">
+                    <li onclick="artFunc()">Journal Article</li>
+                    <li onclick="workFunc()">Working Paper</li>
+                    <li onclick="polFunc()">Policy</li>
+                </ul>
+            </li>
+            <li onclick="funFunc()">Funding History</li>
+            <!-- <li onclick="conFunc()">Consulting</li> -->
+            <li onclick="cntFunc()">Contact</li>
+        </ul>
+        <div class="icons">
+            <div class="icon">
+                <a href="https://scholar.google.com/citations?hl=en&user=UwwIXLUAAAAJ" title="Google Scholer"><img class="img" src="scholar.png"> </a>
+                <a href="https://orcid.org/0000-0001-6940-364X" title="Orcid" class="fab fa-orcid"></a>
+                <a href="#" title="Publons" class="fa"><b>P</b></a>
+                <a href="https://www.linkedin.com/in/mahbubalamicddrb/" title="LInkedin" class="fa fa-linkedin"></a>
+                <a href="https://twitter.com/mahbubicddrb" title="Twitter" class="fa fa-twitter"></a>
+                <a href="#" title="Instagram" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/mahbubul.alam.79025" title="Facebook" class="fa fa-facebook"></a>
+            </div>
+                <input type="text" class="search" placeholder="search">
+                <p onclick="searchFunc()" title="Search" class="fa fa-search"></p>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="content">
+            <div class="about">
+                <div class="aboutl">
+                    <img src="pro_pic.jpg" alt="my picture" class="pro-pic">
+                    <h2>Mahbub-Ul Alam</h2>
+                    <p><b>Associate Scientist</b></p>
+                    <p>Environmental Interventions Unit</p>
+                    <p>icddr,b, Dhaka, Bangladesh </p>
+                    <br>
+                    <p><b>PhD Candidate</b></p>
+                    <p>School of Civil Engineering</p>
+                    <p>University of Leeds, UK</p>
+                    <br>
+                    <p><b>Tsuha Global Fellow</b></p>
+                    <p>School of Population and Global Health</p>
+                    <p>University of Western Australia, Australia</p>
+                    <br>
+                    <p><b>Editorial Board Member</b></p>
+                    <p>PLOS Global Health</p>
+            
+                
+                </div>
+                <div class="aboutr">
+                    <!-- <h2>About me</h2> -->
+                    <p>I am an adherent public health researcher with focused expertise on water, sanitation, hygiene, waste management, anti-microbial resistance, and environmental pollution. I have led 20 studies since 2012 and received over 3M USD as research grant (1.5 M USD as Principal Investigator). I have successfully influenced government policy to improve menstrual hygiene and health in school based on the findings from Bangladesh National Hygiene Survey 2014. My professional aim is to lead effective health research interventions that can help in advocating for policy change with an established public health research career.</p><br>
+                    <p>I am doing my PhD at University of Leeds,UK, School of Civil Engineering, where I studying about behaviour determinants of household waste water management in Dhaka Bangladesh</p><br>
+                    <p>In present I'm an Associate scientist of icddr,b Infectious disease division where my keys responsibilities are mentoring junior researchers to develop concept notes and grant proposals, funding acquisition, protocol writing, seek ethical approval, project management and implementation, data analysis, report and manuscript writing, and dissemination.</p>
+
+                    <!-- slider container -->
+                    <div class="carousel">
+                        <div class="slider">
+
+                            <!-- slide 1 -->
+                            <div class="slide">
+                            <img src="123.jpg" alt=""/>
+                            </div>
+                    
+                            <!-- slide 2 -->
+                            <div class="slide">
+                            <img src="456.jpg" alt="" />
+                            </div>
+                    
+                            <!-- slide 3 -->
+                            <div class="slide">
+                            <img src="789.jpg" alt="" />
+                            </div>
+                    
+                            <!-- slide 4 -->
+                            <!-- <div class="slide">
+                            <img src="https://source.unsplash.com/random?landscape,city" alt="" />
+                            </div> -->
+                    
+                            <!-- Control buttons -->
+                            <button class="btn btn-next">&gt;</button>
+                            <button class="btn btn-prev">&lt;</button>
+                        </div>
+                    </div>
+
+                
+                </div>
+            </div>
+            
+            <div class="award">
+                <h2 class="award2">Awards</h2>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">Received Tsuha Fellowship at the University of Western Australia for the period 2022-2025</p>
+                        Year 2021
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">Received Young Scientist award by Bangladesh Academy of Sciences, Dhaka, Bangladesh</p>
+                        Year 2019
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">Certificate of award for contribution to Faith-based research, House of Lords, London, UK</p>
+                        Year 2018
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">Outstanding contribution in reviewing articles for Public Health in 2018</p>
+                        Year 2018
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">International Training Programme (ITP-301) in Sustainable Urban Water and Sanitation Integrated Processes- SUWAS 2016-17, at Stockholm, Sweden and Kampala, Uganda</p>
+                        Year 2016
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="visualize">
+                        <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s---wYsCvCM--/f_auto,c_fill,h_265,w_390,/v20200101/97BC62C0C93393579743528DE7AE5745.jpg" alt="">
+                    </div>
+                    <div class="awardtext">
+                        <p class="awardtitle">Travel award for oral presentation at Water and Health Conference, 2015 at the NC, USA</p>
+                        Year 2015
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="foot"> &#169 2023 Mahbub-ul Alam. All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
